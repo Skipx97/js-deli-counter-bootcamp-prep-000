@@ -23,8 +23,8 @@ function currentLine (array) {
   while (i < array.length) {
    if (i === 0)
   line.push((i + 1) + ". " + array[i])
-  else 
-  line.push(" " + (i+ 1) + ". " + array[i]); 
+  else
+  line.push(" " + (i+ 1) + ". " + array[i]);
   i++;
  }
  return "The line is currently: " + line;
